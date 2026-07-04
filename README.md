@@ -78,11 +78,7 @@ identical across machines.
 ## Not included (available from the author on request)
 
 The five trained fold models (`convnext_kfold_model_1.h5` ... `_5.h5`) and the
-image data are excluded because of their size (see `.gitignore`). The small
-`class_indices.json` label ordering used by every evaluation should be committed
-alongside the models when they are shared, so that predicted indices map to the
-same species across training and evaluation.
-
+image data are excluded because of their size (see `.gitignore`). 
 ## License
 
 MIT. See `LICENSE`. Copyright (c) 2026 Mursal Furqan Kumbhar.
