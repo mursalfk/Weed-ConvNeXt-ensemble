@@ -1,0 +1,24 @@
+# data and model weights are large; keep them out of git
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+PlantCLEF*/
+organized_*dataset/
+weed_only_dataset/
+data/
+datasets/
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+# outputs
+figures/**/*.png
+*.csv
+!data/experimental_progression.csv
+# os
+.DS_Store
+Thumbs.db

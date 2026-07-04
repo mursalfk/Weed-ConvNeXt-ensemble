@@ -1,0 +1,8 @@
+# Python 3.11.12 (see the thesis reproducibility appendix, Table B.1)
+tensorflow==2.15.0      # bundles the Keras 2.15 API used throughout
+numpy==1.26.4
+matplotlib>=3.7
+pillow>=9.5
+scikit-learn>=1.3
+pandas>=2.0
+tqdm>=4.65
